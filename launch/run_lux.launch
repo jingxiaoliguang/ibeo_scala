@@ -1,0 +1,12 @@
+<launch>
+  <node pkg="ibeo_lux" name="ibeo_lux_pointcloud" type="ibeo_lux_pointcloud" >
+    <param name="device_ip" value="192.168.1.51" />
+    <param name="port" value="12002" />
+  </node>
+
+</launch>
+
+
+
+
+
