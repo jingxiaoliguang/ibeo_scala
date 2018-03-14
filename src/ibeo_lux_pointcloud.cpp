@@ -117,7 +117,7 @@ public:
             {
                 contour_point.x = object_points.at(i).getContourPoints().at(j).getX() / 100.0;
                 contour_point.y = object_points.at(i).getContourPoints().at(j).getY() / 100.0;
-                lux_object_.contour_points.push_back(contour_point);
+                //lux_object_.contour_points.push_back(contour_point);
             }
             lux_objects_.objects.push_back(lux_object_);
         }
