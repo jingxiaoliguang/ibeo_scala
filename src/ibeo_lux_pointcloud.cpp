@@ -64,7 +64,7 @@ public:
                 dis = scanList.at(i).getDistance() / 100.0;   //米
                 angle = scanList.at(i).getHorizontalAngle() / 32.0;   //度
                 scan_point.x = dis * sin(3.1415926*angle/180.0);
-                scan_point.y = dis * cos(3.1415926*angle/180.0);
+                scan_point.y = -dis * cos(3.1415926*angle/180.0);
                 scan_point.z = 0;
                 scan_point.intensity = scanList.at(i).getLayer();
                 scan_array.push_back(scan_point);
